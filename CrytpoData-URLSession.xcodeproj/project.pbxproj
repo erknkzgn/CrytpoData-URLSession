@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33073D11279DC7F900ED43B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D10279DC7F900ED43B4 /* AppDelegate.swift */; };
+		33073D13279DC7F900ED43B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D12279DC7F900ED43B4 /* SceneDelegate.swift */; };
+		33073D15279DC7F900ED43B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D14279DC7F900ED43B4 /* ViewController.swift */; };
+		33073D18279DC7F900ED43B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33073D16279DC7F900ED43B4 /* Main.storyboard */; };
+		33073D1A279DC7FC00ED43B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33073D19279DC7FC00ED43B4 /* Assets.xcassets */; };
+		33073D1D279DC7FC00ED43B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33073D1B279DC7FC00ED43B4 /* LaunchScreen.storyboard */; };
+		33073D28279DC7FC00ED43B4 /* CrytpoData_URLSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D27279DC7FC00ED43B4 /* CrytpoData_URLSessionTests.swift */; };
+		33073D32279DC7FC00ED43B4 /* CrytpoData_URLSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D31279DC7FC00ED43B4 /* CrytpoData_URLSessionUITests.swift */; };
+		33073D34279DC7FC00ED43B4 /* CrytpoData_URLSessionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D33279DC7FC00ED43B4 /* CrytpoData_URLSessionUITestsLaunchTests.swift */; };
+		33073D41279DCAB100ED43B4 /* CyrptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D40279DCAB100ED43B4 /* CyrptoTableViewCell.swift */; };
+		33073D47279DCC7D00ED43B4 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D46279DCC7D00ED43B4 /* CryptoCurrency.swift */; };
+		33073D49279DCE0200ED43B4 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D48279DCE0200ED43B4 /* CryptoService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33073D24279DC7FC00ED43B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33073D05279DC7F900ED43B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33073D0C279DC7F900ED43B4;
+			remoteInfo = "CrytpoData-URLSession";
+		};
+		33073D2E279DC7FC00ED43B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33073D05279DC7F900ED43B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33073D0C279DC7F900ED43B4;
+			remoteInfo = "CrytpoData-URLSession";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33073D0D279DC7F900ED43B4 /* CrytpoData-URLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrytpoData-URLSession.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33073D10279DC7F900ED43B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33073D12279DC7F900ED43B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33073D14279DC7F900ED43B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33073D17279DC7F900ED43B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33073D19279DC7FC00ED43B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33073D1C279DC7FC00ED43B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33073D1E279DC7FC00ED43B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33073D23279DC7FC00ED43B4 /* CrytpoData-URLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrytpoData-URLSessionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33073D27279DC7FC00ED43B4 /* CrytpoData_URLSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrytpoData_URLSessionTests.swift; sourceTree = "<group>"; };
+		33073D2D279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrytpoData-URLSessionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33073D31279DC7FC00ED43B4 /* CrytpoData_URLSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrytpoData_URLSessionUITests.swift; sourceTree = "<group>"; };
+		33073D33279DC7FC00ED43B4 /* CrytpoData_URLSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrytpoData_URLSessionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33073D40279DCAB100ED43B4 /* CyrptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrptoTableViewCell.swift; sourceTree = "<group>"; };
+		33073D46279DCC7D00ED43B4 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		33073D48279DCE0200ED43B4 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33073D0A279DC7F900ED43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33073D20279DC7FC00ED43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33073D2A279DC7FC00ED43B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33073D04279DC7F900ED43B4 = {
+			isa = PBXGroup;
+			children = (
+				33073D0F279DC7F900ED43B4 /* CrytpoData-URLSession */,
+				33073D26279DC7FC00ED43B4 /* CrytpoData-URLSessionTests */,
+				33073D30279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests */,
+				33073D0E279DC7F900ED43B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33073D0E279DC7F900ED43B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33073D0D279DC7F900ED43B4 /* CrytpoData-URLSession.app */,
+				33073D23279DC7FC00ED43B4 /* CrytpoData-URLSessionTests.xctest */,
+				33073D2D279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33073D0F279DC7F900ED43B4 /* CrytpoData-URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				33073D45279DCC2F00ED43B4 /* Service */,
+				33073D44279DCC2100ED43B4 /* ViewModel */,
+				33073D43279DCC1700ED43B4 /* Model */,
+				33073D42279DCC1000ED43B4 /* View */,
+				33073D16279DC7F900ED43B4 /* Main.storyboard */,
+				33073D19279DC7FC00ED43B4 /* Assets.xcassets */,
+				33073D1B279DC7FC00ED43B4 /* LaunchScreen.storyboard */,
+				33073D1E279DC7FC00ED43B4 /* Info.plist */,
+			);
+			path = "CrytpoData-URLSession";
+			sourceTree = "<group>";
+		};
+		33073D26279DC7FC00ED43B4 /* CrytpoData-URLSessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				33073D27279DC7FC00ED43B4 /* CrytpoData_URLSessionTests.swift */,
+			);
+			path = "CrytpoData-URLSessionTests";
+			sourceTree = "<group>";
+		};
+		33073D30279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33073D31279DC7FC00ED43B4 /* CrytpoData_URLSessionUITests.swift */,
+				33073D33279DC7FC00ED43B4 /* CrytpoData_URLSessionUITestsLaunchTests.swift */,
+			);
+			path = "CrytpoData-URLSessionUITests";
+			sourceTree = "<group>";
+		};
+		33073D42279DCC1000ED43B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33073D10279DC7F900ED43B4 /* AppDelegate.swift */,
+				33073D12279DC7F900ED43B4 /* SceneDelegate.swift */,
+				33073D14279DC7F900ED43B4 /* ViewController.swift */,
+				33073D40279DCAB100ED43B4 /* CyrptoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33073D43279DCC1700ED43B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33073D46279DCC7D00ED43B4 /* CryptoCurrency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33073D44279DCC2100ED43B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33073D45279DCC2F00ED43B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				33073D48279DCE0200ED43B4 /* CryptoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33073D0C279DC7F900ED43B4 /* CrytpoData-URLSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33073D37279DC7FC00ED43B4 /* Build configuration list for PBXNativeTarget "CrytpoData-URLSession" */;
+			buildPhases = (
+				33073D09279DC7F900ED43B4 /* Sources */,
+				33073D0A279DC7F900ED43B4 /* Frameworks */,
+				33073D0B279DC7F900ED43B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrytpoData-URLSession";
+			productName = "CrytpoData-URLSession";
+			productReference = 33073D0D279DC7F900ED43B4 /* CrytpoData-URLSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33073D22279DC7FC00ED43B4 /* CrytpoData-URLSessionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33073D3A279DC7FC00ED43B4 /* Build configuration list for PBXNativeTarget "CrytpoData-URLSessionTests" */;
+			buildPhases = (
+				33073D1F279DC7FC00ED43B4 /* Sources */,
+				33073D20279DC7FC00ED43B4 /* Frameworks */,
+				33073D21279DC7FC00ED43B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33073D25279DC7FC00ED43B4 /* PBXTargetDependency */,
+			);
+			name = "CrytpoData-URLSessionTests";
+			productName = "CrytpoData-URLSessionTests";
+			productReference = 33073D23279DC7FC00ED43B4 /* CrytpoData-URLSessionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33073D2C279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33073D3D279DC7FC00ED43B4 /* Build configuration list for PBXNativeTarget "CrytpoData-URLSessionUITests" */;
+			buildPhases = (
+				33073D29279DC7FC00ED43B4 /* Sources */,
+				33073D2A279DC7FC00ED43B4 /* Frameworks */,
+				33073D2B279DC7FC00ED43B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33073D2F279DC7FC00ED43B4 /* PBXTargetDependency */,
+			);
+			name = "CrytpoData-URLSessionUITests";
+			productName = "CrytpoData-URLSessionUITests";
+			productReference = 33073D2D279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33073D05279DC7F900ED43B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					33073D0C279DC7F900ED43B4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					33073D22279DC7FC00ED43B4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 33073D0C279DC7F900ED43B4;
+					};
+					33073D2C279DC7FC00ED43B4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 33073D0C279DC7F900ED43B4;
+					};
+				};
+			};
+			buildConfigurationList = 33073D08279DC7F900ED43B4 /* Build configuration list for PBXProject "CrytpoData-URLSession" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33073D04279DC7F900ED43B4;
+			productRefGroup = 33073D0E279DC7F900ED43B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33073D0C279DC7F900ED43B4 /* CrytpoData-URLSession */,
+				33073D22279DC7FC00ED43B4 /* CrytpoData-URLSessionTests */,
+				33073D2C279DC7FC00ED43B4 /* CrytpoData-URLSessionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33073D0B279DC7F900ED43B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33073D1D279DC7FC00ED43B4 /* LaunchScreen.storyboard in Resources */,
+				33073D1A279DC7FC00ED43B4 /* Assets.xcassets in Resources */,
+				33073D18279DC7F900ED43B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33073D21279DC7FC00ED43B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33073D2B279DC7FC00ED43B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33073D09279DC7F900ED43B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33073D41279DCAB100ED43B4 /* CyrptoTableViewCell.swift in Sources */,
+				33073D15279DC7F900ED43B4 /* ViewController.swift in Sources */,
+				33073D11279DC7F900ED43B4 /* AppDelegate.swift in Sources */,
+				33073D47279DCC7D00ED43B4 /* CryptoCurrency.swift in Sources */,
+				33073D49279DCE0200ED43B4 /* CryptoService.swift in Sources */,
+				33073D13279DC7F900ED43B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33073D1F279DC7FC00ED43B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33073D28279DC7FC00ED43B4 /* CrytpoData_URLSessionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33073D29279DC7FC00ED43B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33073D34279DC7FC00ED43B4 /* CrytpoData_URLSessionUITestsLaunchTests.swift in Sources */,
+				33073D32279DC7FC00ED43B4 /* CrytpoData_URLSessionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33073D25279DC7FC00ED43B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33073D0C279DC7F900ED43B4 /* CrytpoData-URLSession */;
+			targetProxy = 33073D24279DC7FC00ED43B4 /* PBXContainerItemProxy */;
+		};
+		33073D2F279DC7FC00ED43B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33073D0C279DC7F900ED43B4 /* CrytpoData-URLSession */;
+			targetProxy = 33073D2E279DC7FC00ED43B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33073D16279DC7F900ED43B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33073D17279DC7F900ED43B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33073D1B279DC7FC00ED43B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33073D1C279DC7FC00ED43B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33073D35279DC7FC00ED43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33073D36279DC7FC00ED43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33073D38279DC7FC00ED43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TG5G5Z29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrytpoData-URLSession/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erknkzgn.CrytpoData-URLSession";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33073D39279DC7FC00ED43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TG5G5Z29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrytpoData-URLSession/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erknkzgn.CrytpoData-URLSession";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33073D3B279DC7FC00ED43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TG5G5Z29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erknkzgn.CrytpoData-URLSessionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrytpoData-URLSession.app/CrytpoData-URLSession";
+			};
+			name = Debug;
+		};
+		33073D3C279DC7FC00ED43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TG5G5Z29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erknkzgn.CrytpoData-URLSessionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrytpoData-URLSession.app/CrytpoData-URLSession";
+			};
+			name = Release;
+		};
+		33073D3E279DC7FC00ED43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TG5G5Z29;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erknkzgn.CrytpoData-URLSessionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrytpoData-URLSession";
+			};
+			name = Debug;
+		};
+		33073D3F279DC7FC00ED43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TG5G5Z29;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "erknkzgn.CrytpoData-URLSessionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrytpoData-URLSession";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33073D08279DC7F900ED43B4 /* Build configuration list for PBXProject "CrytpoData-URLSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33073D35279DC7FC00ED43B4 /* Debug */,
+				33073D36279DC7FC00ED43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33073D37279DC7FC00ED43B4 /* Build configuration list for PBXNativeTarget "CrytpoData-URLSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33073D38279DC7FC00ED43B4 /* Debug */,
+				33073D39279DC7FC00ED43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33073D3A279DC7FC00ED43B4 /* Build configuration list for PBXNativeTarget "CrytpoData-URLSessionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33073D3B279DC7FC00ED43B4 /* Debug */,
+				33073D3C279DC7FC00ED43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33073D3D279DC7FC00ED43B4 /* Build configuration list for PBXNativeTarget "CrytpoData-URLSessionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33073D3E279DC7FC00ED43B4 /* Debug */,
+				33073D3F279DC7FC00ED43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33073D05279DC7F900ED43B4 /* Project object */;
+}
