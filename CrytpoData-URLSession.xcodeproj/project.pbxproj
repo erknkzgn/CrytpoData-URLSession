@@ -19,6 +19,7 @@
 		33073D41279DCAB100ED43B4 /* CyrptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D40279DCAB100ED43B4 /* CyrptoTableViewCell.swift */; };
 		33073D47279DCC7D00ED43B4 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D46279DCC7D00ED43B4 /* CryptoCurrency.swift */; };
 		33073D49279DCE0200ED43B4 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33073D48279DCE0200ED43B4 /* CryptoService.swift */; };
+		334FC765279F3377008BB26E /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334FC764279F3377008BB26E /* CryptoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		33073D40279DCAB100ED43B4 /* CyrptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrptoTableViewCell.swift; sourceTree = "<group>"; };
 		33073D46279DCC7D00ED43B4 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
 		33073D48279DCE0200ED43B4 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		334FC764279F3377008BB26E /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		33073D44279DCC2100ED43B4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				334FC764279F3377008BB26E /* CryptoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				33073D41279DCAB100ED43B4 /* CyrptoTableViewCell.swift in Sources */,
 				33073D15279DC7F900ED43B4 /* ViewController.swift in Sources */,
 				33073D11279DC7F900ED43B4 /* AppDelegate.swift in Sources */,
+				334FC765279F3377008BB26E /* CryptoViewModel.swift in Sources */,
 				33073D47279DCC7D00ED43B4 /* CryptoCurrency.swift in Sources */,
 				33073D49279DCE0200ED43B4 /* CryptoService.swift in Sources */,
 				33073D13279DC7F900ED43B4 /* SceneDelegate.swift in Sources */,
